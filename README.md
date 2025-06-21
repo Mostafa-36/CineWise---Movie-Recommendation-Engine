@@ -1,4 +1,4 @@
-```markdown
+````markdown
 # 🎬 CineWise — Functional Movie Recommender (Pure JS)
 
 > A pure **functional programming (FP)** movie recommendation engine built in vanilla JavaScript.  
@@ -48,51 +48,50 @@ This project focuses on:
 ---
 
 ## 🗂 File Structure
-```
 
+````text
 cinewise-fp/
 │
 ├── src/
-│ ├── core/
-│ │ ├── strategies/
-│ │ │ ├── getTopRatedWatched.js
-│ │ │ ├── filterByActors.js
-│ │ │ ├── getUnwatched.js
-│ │ │ ├── getByGenres.js
-│ │ │ ├── getAboveRating.js
-│ │ │ └── getAfterLastWatched.js
-│ │ │
-│ │ ├── utils/
-│ │ │ ├── pipe.js
-│ │ │ ├── compose.js
-│ │ │ ├── countMovieOccurrences.js
-│ │ │ ├── getOtherUsers.js
-│ │ │ ├── collectWatchHistoryForUsers.js
-│ │ │ ├── getMovieViewCount.js
-│ │ │ ├── buildMovieCountArray.js
-│ │ │ ├── attachWatchCountsToMovies.js
-│ │ │ ├── excludeMoviesByIds.js
-│ │ │ ├── extractWatchedMovieIds.js
-│ │ │ ├── getActorsFromWatchedMovies.js
-│ │ │ ├── getMovieInfoById.js
-│ │ │ ├── getMoviesReleasedAfterDate.js
-│ │ │ ├── sortByMostRating.js
-│ │ │ └── buildRecommendationsByActors.js
-│ │ │
-│ │ └── createRecommendationEngine.js
-│ │
-│ ├── data/
-│ │ ├── users.js
-│ │ └── movies.js
-│ │
-│ └── index.js
+│   ├── core/
+│   │   ├── strategies/
+│   │   │   ├── getTopRatedWatched.js
+│   │   │   ├── filterByActors.js
+│   │   │   ├── getUnwatched.js
+│   │   │   ├── getByGenres.js
+│   │   │   ├── getAboveRating.js
+│   │   │   └── getAfterLastWatched.js
+│   │
+│   │   ├── utils/
+│   │   │   ├── pipe.js
+│   │   │   ├── compose.js
+│   │   │   ├── countMovieOccurrences.js
+│   │   │   ├── getOtherUsers.js
+│   │   │   ├── collectWatchHistoryForUsers.js
+│   │   │   ├── getMovieViewCount.js
+│   │   │   ├── buildMovieCountArray.js
+│   │   │   ├── attachWatchCountsToMovies.js
+│   │   │   ├── excludeMoviesByIds.js
+│   │   │   ├── extractWatchedMovieIds.js
+│   │   │   ├── getActorsFromWatchedMovies.js
+│   │   │   ├── getMovieInfoById.js
+│   │   │   ├── getMoviesReleasedAfterDate.js
+│   │   │   ├── sortByMostRating.js
+│   │   │   └── buildRecommendationsByActors.js
+│   │
+│   │   └── createRecommendationEngine.js
+│
+│   ├── data/
+│   │   ├── users.js
+│   │   └── movies.js
+│
+│   └── index.js
 │
 ├── README.md
 ├── package.json
 ├── package-lock.json
 └── .gitignore
 
-````
 
 ---
 
@@ -133,7 +132,7 @@ const recommendForUser = createRecommendationEngine(users, movies);
 
 console.log(recommendForUser(users[0], 5));
 
-
+````
 ````
 
 ---
