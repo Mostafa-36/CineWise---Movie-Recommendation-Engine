@@ -61,7 +61,7 @@ cinewise-fp/
 │   │    ├── getByGenres.js
 │   │    ├── getAboveRating.js
 │   │    ├── getAfterLastWatched.js
-│   │    └── createRecommendationEngine.js.js
+│   │    └── createRecommendationEngine.js
 │   │
 │   │   ├── utils/
 │   │   │   ├── pipe.js
