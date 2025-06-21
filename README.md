@@ -1,4 +1,4 @@
-````markdown
+`````markdown
 # 🎬 CineWise — Functional Movie Recommender (Pure JS)
 
 > A pure **functional programming (FP)** movie recommendation engine built in vanilla JavaScript.  
@@ -54,13 +54,14 @@ cinewise-fp/
 │
 ├── src/
 │   ├── core/
-│   │   ├── strategies/
-│   │   │   ├── getTopRatedWatched.js
-│   │   │   ├── filterByActors.js
-│   │   │   ├── getUnwatched.js
-│   │   │   ├── getByGenres.js
-│   │   │   ├── getAboveRating.js
-│   │   │   └── getAfterLastWatched.js
+│   │
+│   │    ├── getTopRatedWatched.js
+│   │    ├── filterByActors.js
+│   │    ├── getUnwatched.js
+│   │    ├── getByGenres.js
+│   │    ├── getAboveRating.js
+│   │    ├── getAfterLastWatched.js
+│   │    └── createRecommendationEngine.js.js
 │   │
 │   │   ├── utils/
 │   │   │   ├── pipe.js
@@ -79,7 +80,7 @@ cinewise-fp/
 │   │   │   ├── sortByMostRating.js
 │   │   │   └── buildRecommendationsByActors.js
 │   │
-│   │   └── createRecommendationEngine.js
+│   │
 │
 │   ├── data/
 │   │   ├── users.js
@@ -131,9 +132,10 @@ console.log(getMoviesByGenres("Adventure", "Drama", "Action")(movies));
 const recommendForUser = createRecommendationEngine(users, movies);
 
 console.log(recommendForUser(users[0], 5));
+````
+`````
 
-````
-````
+```
 
 ---
 
@@ -153,3 +155,4 @@ Clean Code • Algorithms • FP Enthusiast
 ---
 
 > “FP is not about being fancy. It's about being fearless, flexible, and future-proof.”
+```
